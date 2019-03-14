@@ -5,7 +5,7 @@ A simple universal package to easily generate or import CSV files.
 ### Installation
 Just run this on your terminal (project dir)
 ```
-composer require nathanielrich/csv
+composer require nathanielrich/csv:@dev
 ```
 that´s it.
 
