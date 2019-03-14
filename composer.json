@@ -1,0 +1,23 @@
+{
+    "name": "nathanielrich/csv",
+    "description": "Simple CSV class to handle csv-files import and export with delimiters, enclosures, escapes, charset, etc...",
+    "keywords": ["csv", "csv-import", "csv-export", "csv-download", "library", "nathanielrich"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nathanielrich",
+            "email": "nathaniel.rich@me.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NRich\\CSV\\": "src/CSV"
+        }
+    },
+    "prefer-stable": true
+}
